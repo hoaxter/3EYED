@@ -16,7 +16,7 @@ yellow = Fore.YELLOW
 
 arg = argparse.ArgumentParser(
     description="Basic Information Gathering Tool",
-    usage="python ninfo.py -d example.com [-s IP]",
+    usage="python 3EYED.py -d example.com [-s IP]",
 )
 arg.add_argument("-d", "--domain",help="Enter the domain name for footprinting.") 
 arg.add_argument("-s", "--shodan", help="Enter the ip for shodan search.")
